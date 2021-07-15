@@ -16,7 +16,7 @@ The code-gen-experiment folder follows the structure below:
 | +-- src
 |   |+-- ...
 | +-- Expected.txt
-|	+-- {ModelName}.iml
+| +-- {ModelName}.iml
 +-- ...
 ```
 The `clean.sh` script is used to clean the directory of files created in evaluation. The `run.sh` script runs
