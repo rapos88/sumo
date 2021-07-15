@@ -1,0 +1,77 @@
+<iml version="0.1">
+	<StructuralModel name="CarVsTruckWithObjects" conformsTo="InheritObjects.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Car" isAbstract="FALSE" x="466" y="98" id="51586ecc-b536-4c5c-9db7-e838a97c4634">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="TwoCylinderCar" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="150" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="10000.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="isRacecar" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="5" />
+			</Class>
+			<Class name="Truck" isAbstract="FALSE" x="457" y="340" id="792d9b3d-1f7d-4445-95cd-477f5924dc3f">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="FourCylinderTruck" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="300" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="15000.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="towingCapacity" type="DOUBLE" value="1000.0" lowerBound="0" upperBound="1" position="5" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="143" y="150" id="7783e181-d32c-456b-8933-a019fbcfc0f4">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="engine" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="138" y="388" id="2ab5bf45-9ada-4e38-8131-e4e492ddec19">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="engine" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="249" y="40" id="5409e633-9166-41f3-a374-e5875fe6adf9">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="35" y="40" id="71bf8bb8-572d-4f1c-8b1e-e6e426de1d76">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="242" y="282" id="f2894991-56e7-43b7-a1b3-6e2aae5cba8c">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="28" y="283" id="9fee4521-41e5-4e88-8a5c-32b1eccdc970">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="28" y="496" id="d3bce411-2893-4791-b880-469358d8657b">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="241" y="497" id="b04087f1-2209-42ff-9c2d-ca289595a170">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="810" y="150" id="568a31c4-f04a-422f-99aa-184bf9c2d328">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="John" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="810" y="392" id="fdf1e6c1-efb1-4737-a97f-70c26d8bd1bf">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Jane" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="814" y="39" id="3c46138e-cc22-483c-885d-36efd7486b8d">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="son" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="814" y="281" id="2bcf6807-e50b-4925-b392-f9491b2e7ade">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="son" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="800" y="498" id="3200fb02-0979-4e71-b4be-31534e3317c1">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="daughter" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+			<Relation source="51586ecc-b536-4c5c-9db7-e838a97c4634" destination="7783e181-d32c-456b-8933-a019fbcfc0f4" type="COMPOSITION" name="parts" lowerBound="1" upperBound="*" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="792d9b3d-1f7d-4445-95cd-477f5924dc3f" destination="2ab5bf45-9ada-4e38-8131-e4e492ddec19" type="COMPOSITION" name="parts" lowerBound="1" upperBound="*" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7783e181-d32c-456b-8933-a019fbcfc0f4" destination="5409e633-9166-41f3-a374-e5875fe6adf9" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.48899396706342735" boundDistance="0" nameOffset="1.5833801744310598" boundOffset="0" />
+			<Relation source="7783e181-d32c-456b-8933-a019fbcfc0f4" destination="71bf8bb8-572d-4f1c-8b1e-e6e426de1d76" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.5017120495679113" boundDistance="0" nameOffset="-1.4939958097454191" boundOffset="0" />
+			<Relation source="2ab5bf45-9ada-4e38-8131-e4e492ddec19" destination="f2894991-56e7-43b7-a1b3-6e2aae5cba8c" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.4944353043646569" boundDistance="0" nameOffset="1.7117330402161663" boundOffset="0" />
+			<Relation source="2ab5bf45-9ada-4e38-8131-e4e492ddec19" destination="9fee4521-41e5-4e88-8a5c-32b1eccdc970" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.5018025751072961" boundDistance="0" nameOffset="1.493677663143357" boundOffset="0" />
+			<Relation source="2ab5bf45-9ada-4e38-8131-e4e492ddec19" destination="d3bce411-2893-4791-b880-469358d8657b" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.4986301369863014" boundDistance="0" nameOffset="0.9945054529214536" boundOffset="0" />
+			<Relation source="2ab5bf45-9ada-4e38-8131-e4e492ddec19" destination="b04087f1-2209-42ff-9c2d-ca289595a170" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0" boundOffset="0" />
+			<Relation source="51586ecc-b536-4c5c-9db7-e838a97c4634" destination="568a31c4-f04a-422f-99aa-184bf9c2d328" type="REFERENCE" name="owner" lowerBound="1" upperBound="1" nameDistance="0.5185185185185185" boundDistance="0" nameOffset="-11" boundOffset="0" />
+			<Relation source="792d9b3d-1f7d-4445-95cd-477f5924dc3f" destination="fdf1e6c1-efb1-4737-a97f-70c26d8bd1bf" type="REFERENCE" name="owner" lowerBound="1" upperBound="1" nameDistance="0.47435897435897434" boundDistance="0" nameOffset="-11" boundOffset="0" />
+			<Relation source="568a31c4-f04a-422f-99aa-184bf9c2d328" destination="3c46138e-cc22-483c-885d-36efd7486b8d" type="REFERENCE" name="children" lowerBound="0" upperBound="*" nameDistance="0.5625" boundDistance="0" nameOffset="0" boundOffset="0" />
+			<Relation source="fdf1e6c1-efb1-4737-a97f-70c26d8bd1bf" destination="2bcf6807-e50b-4925-b392-f9491b2e7ade" type="REFERENCE" name="children" lowerBound="0" upperBound="*" nameDistance="0.5652173913043478" boundDistance="0" nameOffset="1" boundOffset="0" />
+			<Relation source="fdf1e6c1-efb1-4737-a97f-70c26d8bd1bf" destination="3200fb02-0979-4e71-b4be-31534e3317c1" type="REFERENCE" name="children" lowerBound="0" upperBound="*" nameDistance="0.5405405405405406" boundDistance="0" nameOffset="1" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

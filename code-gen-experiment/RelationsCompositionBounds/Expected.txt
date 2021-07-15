@@ -1,0 +1,119 @@
+Vehicle: {
+	name: "Coupe"
+	horsePower: 450
+	price: 60000.0
+	isUsed: false
+	touchScreen: [
+		TouchScreen: {
+		}
+	]
+	sensors: [
+		Sensor: { 
+		}
+		Sensor: { 
+		}
+	]
+	usbPorts: [
+		UsbPort: { 
+		}
+	]
+	engine: [
+		Engine: { 
+		}
+	]
+	seats: [
+		Seat: { 
+		}
+		Seat: { 
+		}
+	]
+	axels: [
+		Axel: { 
+		}
+		Axel: { 
+		}
+	]
+	pedals: [
+		Pedal: { 
+		}
+		Pedal: { 
+		}
+	]
+	brakePads: [
+		BrakePad: { 
+		}
+		BrakePad: { 
+		}
+		BrakePad: { 
+		}
+		BrakePad: { 
+		}
+	]
+	windows: [
+		Window: { 
+		}
+		Window: { 
+		}
+		Window: { 
+		}
+		Window: { 
+		}
+	]
+}
+
+TouchScreen: {
+}
+
+Engine: { 
+}
+
+Sensor: { 
+}
+
+Sensor: { 
+}
+
+UsbPort: { 
+}
+
+Seat: { 
+}
+
+Seat: { 
+}
+
+Axel: { 
+}
+
+Axel: { 
+}
+
+BrakePad: { 
+}
+
+BrakePad: { 
+}
+
+BrakePad: { 
+}
+
+BrakePad: { 
+}
+
+Window: { 
+}
+
+Window: { 
+}
+
+Window: { 
+}
+
+Window: { 
+}
+
+Pedal: { 
+}
+
+Pedal: { 
+}

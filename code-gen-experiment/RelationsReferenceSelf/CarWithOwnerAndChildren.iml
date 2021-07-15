@@ -1,0 +1,29 @@
+<iml version="0.1">
+	<StructuralModel name="CarWithOwnerAndChildren" conformsTo="RelationReferenceSelf.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="70" y="82" id="5f9d683b-b13d-4467-a28e-825ddcc49f20">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="van" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="250" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="32512.55" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="4" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="382" y="120" id="a766ef13-8c43-4408-a9f5-a0778b6bbc1d">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Mom" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="688" y="86" id="506ab953-f720-4249-9536-fbdb491625b4">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="son" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="688" y="147" id="f01425e5-4745-41b0-a861-17ade08e190e">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="daughter" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+			<Relation source="5f9d683b-b13d-4467-a28e-825ddcc49f20" destination="a766ef13-8c43-4408-a9f5-a0778b6bbc1d" type="REFERENCE" name="owner" lowerBound="1" upperBound="1" nameDistance="0.5217391304347826" boundDistance="0" nameOffset="-10" boundOffset="0" />
+			<Relation source="a766ef13-8c43-4408-a9f5-a0778b6bbc1d" destination="506ab953-f720-4249-9536-fbdb491625b4" type="REFERENCE" name="children" lowerBound="0" upperBound="*" nameDistance="0.5297189753792589" boundDistance="0" nameOffset="-1.1820172944407945" boundOffset="0" />
+			<Relation source="a766ef13-8c43-4408-a9f5-a0778b6bbc1d" destination="f01425e5-4745-41b0-a861-17ade08e190e" type="REFERENCE" name="children" lowerBound="0" upperBound="*" nameDistance="0.5283679080229943" boundDistance="0" nameOffset="0.24593673735395047" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

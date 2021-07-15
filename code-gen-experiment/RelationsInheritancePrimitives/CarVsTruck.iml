@@ -1,0 +1,25 @@
+<iml version="0.1">
+	<StructuralModel name="CarVsTruck" conformsTo="InheritPrimitives.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Car" isAbstract="FALSE" x="180" y="108" id="5adaac8e-f732-4b47-b946-1c8f2961edfc">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="BMW M8 GTE" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="592" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="400000.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="isRacecar" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="5" />
+			</Class>
+			<Class name="Truck" isAbstract="FALSE" x="505" y="109" id="26a4a425-053c-4b4a-9b3a-c63449b83052">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Chevrolet Colorado" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="308" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="31595" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="towingCapacity" type="DOUBLE" value="7700" lowerBound="0" upperBound="1" position="5" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

@@ -1,0 +1,17 @@
+<iml version="0.1">
+	<StructuralModel name="VehicleNoValues" conformsTo="SimpleVehicleNoDefault.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="373" y="114" id="48cb7c8d-eef8-4f8b-aca7-ee3e1933a3b7">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" lowerBound="0" upperBound="1" position="4" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

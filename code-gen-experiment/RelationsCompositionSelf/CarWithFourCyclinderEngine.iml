@@ -1,0 +1,37 @@
+<iml version="0.1">
+	<StructuralModel name="CarWithFourCyclinderEngine" conformsTo="RelationCompositionSelf.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="60" y="84" id="a65aee26-21ed-445b-a242-7eda952e569f">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="car" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="200" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="2000.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="4" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="377" y="122" id="3e95c1a2-571b-4e91-864a-4b1e91454496">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="engine" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="689" y="24" id="f5bc544e-6162-4767-aa9f-ebc6976cd241">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="689" y="84" id="03a7f8e0-83f5-4489-a799-90954c580e4e">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="689" y="144" id="c34a7326-4d19-416d-9298-09977d43584e">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Part" isAbstract="FALSE" x="689" y="204" id="9a871b0c-e72e-409c-9325-df707f87d7c3">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="cylinder" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+			<Relation source="a65aee26-21ed-445b-a242-7eda952e569f" destination="3e95c1a2-571b-4e91-864a-4b1e91454496" type="COMPOSITION" name="parts" lowerBound="1" upperBound="*" nameDistance="0.5081967213114754" boundDistance="0" nameOffset="-13" boundOffset="0" />
+			<Relation source="3e95c1a2-571b-4e91-864a-4b1e91454496" destination="f5bc544e-6162-4767-aa9f-ebc6976cd241" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.47743676222596965" boundDistance="0" nameOffset="-4.550010655436622" boundOffset="0" />
+			<Relation source="3e95c1a2-571b-4e91-864a-4b1e91454496" destination="03a7f8e0-83f5-4489-a799-90954c580e4e" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.4990757855822551" boundDistance="0" nameOffset="-3.5348803272403964" boundOffset="0" />
+			<Relation source="3e95c1a2-571b-4e91-864a-4b1e91454496" destination="c34a7326-4d19-416d-9298-09977d43584e" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.49271572655958157" boundDistance="0" nameOffset="-0.46466475638216365" boundOffset="0" />
+			<Relation source="3e95c1a2-571b-4e91-864a-4b1e91454496" destination="9a871b0c-e72e-409c-9325-df707f87d7c3" type="COMPOSITION" name="subParts" lowerBound="0" upperBound="*" nameDistance="0.453050397877984" boundDistance="0" nameOffset="4.168913629329163" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

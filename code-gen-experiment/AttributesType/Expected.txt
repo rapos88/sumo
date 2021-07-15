@@ -1,0 +1,6 @@
+Vehicle: { 
+	name: ""
+	horsePower: 0
+	price: 0.0
+	isUsed: false
+}

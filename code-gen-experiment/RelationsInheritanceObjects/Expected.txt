@@ -1,0 +1,211 @@
+Car: {
+	name: "TwoCylinderCar"
+	horsePower: 150
+	price: 10000.0
+	isUsed: true
+	isRacecar: false
+	parts: [
+		Part: {
+			name: "engine"
+			subParts: [
+				Part: {
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: {
+					name: "cylinder"
+					subParts: [
+					]
+				}
+			]
+		}
+	]
+	owner: [
+		Person: {
+			name: "John"
+			children: [
+				Person: {
+					name: "son"
+					children: [
+					]
+				}
+			]
+		}
+	]
+}
+
+Truck: {
+	name: "FourCylinderTruck"
+	horsePower: 300
+	price: 15000.0
+	isUsed: false
+	towingCapacity: 1000.0
+	parts: [
+		Part: {
+			name: "engine"
+			subParts: [
+				Part: {
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: {
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: {
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: {
+					name: "cylinder"
+					subParts: [
+					]
+				}
+			]
+		}
+	]
+	owner: [
+		Person: {
+			name: "Jane"
+			children: [
+				Person: {
+					name: "son"
+					children: [
+					]
+				}
+				Person: {
+					name: "daughter"
+					children: [
+					]
+				}
+			]
+		}
+	]
+}
+
+Part: {
+	name: "engine"
+	subParts: [
+		Part: {
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: {
+			name: "cylinder"
+			subParts: [
+			]
+		}
+	]
+}
+
+Part: {
+	name: "engine"
+	subParts: [
+		Part: {
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: {
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: {
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: {
+			name: "cylinder"
+			subParts: [
+			]
+		}
+	]
+}
+
+Part: {
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: {
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: {
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: {
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: {
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: {
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Person: {
+	name: "John"
+	children: [
+		Person: {
+			name: "son"
+			children: [
+			]
+		}
+	]
+}
+
+Person: {
+	name: "Jane"
+	children: [
+		Person: {
+			name: "son"
+			children: [
+			]
+		}
+		Person: {
+			name: "daughter"
+			children: [
+			]
+		}
+	]
+}
+
+Person: {
+	name: "son"
+	children: [
+	]
+}
+
+Person: {
+	name: "son"
+	children: [
+	]
+}
+
+Person: {
+	name: "daughter"
+	children: [
+	]
+}

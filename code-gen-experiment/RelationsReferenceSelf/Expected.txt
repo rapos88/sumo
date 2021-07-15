@@ -1,0 +1,51 @@
+Vehicle: {
+	name: "van"
+	horsePower: 250
+	price: 32512.55
+	isUsed: true
+	owner: [
+		Person: {
+			name: "Mom"
+			children: [
+				Person: {
+					name: "son"
+					children: [
+					]
+				}
+				Person: {
+					name: "daughter"
+					children: [
+					]
+				}
+			]
+		}
+	]
+}
+
+Person: {
+	name: "Mom"
+	children: [
+		Person: {
+			name: "son"
+			children: [
+			]
+		}
+		Person: {
+			name: "daughter"
+			children: [
+			]
+		}
+	]
+}
+
+Person: {
+	name: "son"
+	children: [
+	]
+}
+
+Person: {
+	name: "daughter"
+	children: [
+	]
+}

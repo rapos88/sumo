@@ -1,0 +1,15 @@
+Car: {
+	name: "BMW M8 GTE"
+	horsePower: 592
+	price: 400000.0
+	isUsed: true
+	isRacecar: true
+}
+
+Truck: {
+	name: "Chevrolet Colorado"
+	horsePower: 308
+	price: 31595.0
+	isUsed: false
+	towingCapacity: 7700.0
+}

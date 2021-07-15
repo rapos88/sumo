@@ -1,0 +1,55 @@
+<iml version="0.1">
+	<StructuralModel name="GenericCoupe" conformsTo="VehicleCompositionObjects.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="333" y="200" id="ea373799-0938-43d4-aa6b-7c5e8e12da96">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Coupe" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="450" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="60000.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="4" />
+			</Class>
+			<Class name="TouchScreen" isAbstract="FALSE" x="61" y="241" id="38b51ee6-91d1-4635-a072-1c0d9f5a8ff9" />
+			<Class name="Engine" isAbstract="FALSE" x="543" y="452" id="bfabe4a0-f293-48e3-903a-c45a71ab9120" />
+			<Class name="Sensor" isAbstract="FALSE" x="149" y="392" id="3d27e9f5-5e47-4bde-aad0-480dea5364c7" />
+			<Class name="Sensor" isAbstract="FALSE" x="97" y="357" id="53076cab-1d5d-489f-9bc0-212e1c3f4adc" />
+			<Class name="UsbPort" isAbstract="FALSE" x="313" y="458" id="a38ec5f0-877c-4a5d-b620-0f9fb115eb29" />
+			<Class name="Seat" isAbstract="FALSE" x="692" y="385" id="38263b84-e37b-435c-b39c-6a51a3afff2e" />
+			<Class name="Seat" isAbstract="FALSE" x="664" y="417" id="2310e006-a9e4-4b79-9653-e8e14e93952c" />
+			<Class name="Axel" isAbstract="FALSE" x="729" y="305" id="ffcaaeb6-d573-4cc9-98b2-252926b7de19" />
+			<Class name="Axel" isAbstract="FALSE" x="736" y="272" id="7a5a9063-2291-40c7-9108-c48d1921b3f5" />
+			<Class name="BrakePad" isAbstract="FALSE" x="553" y="46" id="ba58bf14-73d0-4739-927f-a4833458d6be" />
+			<Class name="BrakePad" isAbstract="FALSE" x="615" y="77" id="03d0e695-6237-4fb0-951d-3efb5f66f09e" />
+			<Class name="BrakePad" isAbstract="FALSE" x="452" y="47" id="fa2610f4-62d9-4052-96cb-47ddbd0c4f23" />
+			<Class name="BrakePad" isAbstract="FALSE" x="381" y="78" id="1b4035fd-4591-4d2e-9a45-689d44e99942" />
+			<Class name="Window" isAbstract="FALSE" x="242" y="69" id="9bb7e34b-e424-4bd8-baad-481cdde2dfb4" />
+			<Class name="Window" isAbstract="FALSE" x="152" y="75" id="3daf3e66-c6a2-469f-be93-6824dbac8f64" />
+			<Class name="Window" isAbstract="FALSE" x="109" y="109" id="6d735a28-f066-415e-84c1-d1bee2ea3ff3" />
+			<Class name="Window" isAbstract="FALSE" x="81" y="144" id="1a3e7ce4-be11-4674-861d-78a4d3a5f38f" />
+			<Class name="Pedal" isAbstract="FALSE" x="716" y="142" id="9aeb414b-abe5-4b6c-9718-f45690cf27a5" />
+			<Class name="Pedal" isAbstract="FALSE" x="724" y="185" id="b56f7240-e3fe-436c-bcdb-123e7d10569f" />
+		</Classes>
+
+		<Relations>
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="bfabe4a0-f293-48e3-903a-c45a71ab9120" type="COMPOSITION" name="engine" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="2310e006-a9e4-4b79-9653-e8e14e93952c" type="COMPOSITION" name="seats" lowerBound="1" upperBound="4" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="38263b84-e37b-435c-b39c-6a51a3afff2e" type="COMPOSITION" name="seats" lowerBound="1" upperBound="4" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="ffcaaeb6-d573-4cc9-98b2-252926b7de19" type="COMPOSITION" name="axels" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="7a5a9063-2291-40c7-9108-c48d1921b3f5" type="COMPOSITION" name="axels" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="b56f7240-e3fe-436c-bcdb-123e7d10569f" type="COMPOSITION" name="pedals" lowerBound="2" upperBound="2" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="9aeb414b-abe5-4b6c-9718-f45690cf27a5" type="COMPOSITION" name="pedals" lowerBound="2" upperBound="2" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="ba58bf14-73d0-4739-927f-a4833458d6be" type="COMPOSITION" name="brakePads" lowerBound="2" upperBound="4" nameDistance="0.7465119311513887" boundDistance="0" nameOffset="0.6621089914804471" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="03d0e695-6237-4fb0-951d-3efb5f66f09e" type="COMPOSITION" name="brakePads" lowerBound="2" upperBound="4" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="fa2610f4-62d9-4052-96cb-47ddbd0c4f23" type="COMPOSITION" name="brakePads" lowerBound="2" upperBound="4" nameDistance="0.600045578851413" boundDistance="0" nameOffset="10.824046460010209" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="1b4035fd-4591-4d2e-9a45-689d44e99942" type="COMPOSITION" name="brakePads" lowerBound="2" upperBound="4" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="9bb7e34b-e424-4bd8-baad-481cdde2dfb4" type="COMPOSITION" name="windows" lowerBound="2" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="3daf3e66-c6a2-469f-be93-6824dbac8f64" type="COMPOSITION" name="windows" lowerBound="2" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="6d735a28-f066-415e-84c1-d1bee2ea3ff3" type="COMPOSITION" name="windows" lowerBound="2" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="1a3e7ce4-be11-4674-861d-78a4d3a5f38f" type="COMPOSITION" name="windows" lowerBound="2" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="38b51ee6-91d1-4635-a072-1c0d9f5a8ff9" type="COMPOSITION" name="touchScreen" lowerBound="0" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="53076cab-1d5d-489f-9bc0-212e1c3f4adc" type="COMPOSITION" name="sensors" lowerBound="0" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="3d27e9f5-5e47-4bde-aad0-480dea5364c7" type="COMPOSITION" name="sensors" lowerBound="0" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="ea373799-0938-43d4-aa6b-7c5e8e12da96" destination="a38ec5f0-877c-4a5d-b620-0f9fb115eb29" type="COMPOSITION" name="usbPorts" lowerBound="0" upperBound="*" nameDistance="0.5283105441864734" boundDistance="0" nameOffset="-0.7184685925445551" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

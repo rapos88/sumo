@@ -1,0 +1,49 @@
+<iml version="0.1">
+	<StructuralModel name="DefaultVehicleWithObjects" conformsTo="VehicleReferenceObjects.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="319" y="197" id="aa0821d3-8058-4363-a5c0-a81f9eee1381">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsePower" type="INTEGER" value="100" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="1000" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" lowerBound="0" upperBound="1" position="4" />
+			</Class>
+			<Class name="LicensePlate" isAbstract="FALSE" x="488" y="454" id="1a9ffdd5-1e1b-4bf1-acaa-4fca43b15daa" />
+			<Class name="ExhaustPipe" isAbstract="FALSE" x="673" y="377" id="934f9153-5150-4723-9efc-81ab28121e20" />
+			<Class name="SeatBelt" isAbstract="FALSE" x="765" y="246" id="a074b1c9-fea7-498e-a4c7-bf980847714e" />
+			<Class name="SeatBelt" isAbstract="FALSE" x="765" y="286" id="a43c6da2-f68d-42f1-bfa8-d0aa3b02b5d7" />
+			<Class name="HeadLight" isAbstract="FALSE" x="639" y="62" id="529abaf5-8628-43c8-86a3-a3277d036498" />
+			<Class name="HeadLight" isAbstract="FALSE" x="707" y="96" id="c6435658-051f-4003-8322-51c5a994d27c" />
+			<Class name="SeatBelt" isAbstract="FALSE" x="763" y="200" id="c54d550b-a7c2-4f21-b139-9bbcc7cce0fb" />
+			<Class name="Wheel" isAbstract="FALSE" x="367" y="16" id="0fe65009-58b9-44ea-b588-94dfdc2179da" />
+			<Class name="Wheel" isAbstract="FALSE" x="455" y="17" id="3a8ae4ef-6280-4ac0-bae2-a73a78e35f5b" />
+			<Class name="Wheel" isAbstract="FALSE" x="322" y="48" id="50cc9539-e49e-49b1-8e57-cddfe001d0a6" />
+			<Class name="Wheel" isAbstract="FALSE" x="495" y="48" id="9af2964b-3339-408b-a047-96cb74b6c71b" />
+			<Class name="Speaker" isAbstract="FALSE" x="126" y="78" id="a63c981a-c5e3-4024-99ac-aa8bfc9bec41" />
+			<Class name="Speaker" isAbstract="FALSE" x="177" y="47" id="d9db4347-3c3e-46ba-900f-1e15636ad740" />
+			<Class name="Cupholder" isAbstract="FALSE" x="84" y="358" id="12c1e6a1-75ad-414c-8830-be79dd0d7206" />
+			<Class name="FloorMat" isAbstract="FALSE" x="204" y="431" id="4ed6ae4e-ee75-41be-88a7-629ab7e178b0" />
+			<Class name="FloorMat" isAbstract="FALSE" x="278" y="460" id="1539c676-403b-44df-b69a-773f796749e3" />
+		</Classes>
+
+		<Relations>
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="1a9ffdd5-1e1b-4bf1-acaa-4fca43b15daa" type="REFERENCE" name="licensePlate" lowerBound="1" upperBound="1" nameDistance="0.7966934763181412" boundDistance="0" nameOffset="-3.7344853322848857" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="934f9153-5150-4723-9efc-81ab28121e20" type="REFERENCE" name="exhaustPipes" lowerBound="1" upperBound="4" nameDistance="0.679027156723743" boundDistance="0" nameOffset="5.14856183335725" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="a074b1c9-fea7-498e-a4c7-bf980847714e" type="REFERENCE" name="seatBelts" lowerBound="1" upperBound="*" nameDistance="0.7520036292151823" boundDistance="0" nameOffset="-4.504177539039804" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="a43c6da2-f68d-42f1-bfa8-d0aa3b02b5d7" type="REFERENCE" name="seatBelts" lowerBound="1" upperBound="*" nameDistance="0.754133582438113" boundDistance="0" nameOffset="4.171084377661005" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="529abaf5-8628-43c8-86a3-a3277d036498" type="REFERENCE" name="headLights" lowerBound="2" upperBound="2" nameDistance="0.7413883405181096" boundDistance="0" nameOffset="-2.4437180250073256" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="c6435658-051f-4003-8322-51c5a994d27c" type="REFERENCE" name="headLights" lowerBound="2" upperBound="2" nameDistance="0.6974339105296099" boundDistance="0" nameOffset="2.0854399287918755" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="c54d550b-a7c2-4f21-b139-9bbcc7cce0fb" type="REFERENCE" name="seatBelts" lowerBound="1" upperBound="*" nameDistance="0.7583233793028559" boundDistance="0" nameOffset="-4.315386991010258" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="50cc9539-e49e-49b1-8e57-cddfe001d0a6" type="REFERENCE" name="wheels" lowerBound="2" upperBound="4" nameDistance="0.7539184952978056" boundDistance="0" nameOffset="-7.747079538723602" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="0fe65009-58b9-44ea-b588-94dfdc2179da" type="REFERENCE" name="wheels" lowerBound="2" upperBound="4" nameDistance="0.7083017915720415" boundDistance="0" nameOffset="3.659318675906706" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="3a8ae4ef-6280-4ac0-bae2-a73a78e35f5b" type="REFERENCE" name="wheels" lowerBound="2" upperBound="4" nameDistance="0.7513526229122559" boundDistance="0" nameOffset="-2.9221853559902313" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="9af2964b-3339-408b-a047-96cb74b6c71b" type="REFERENCE" name="wheels" lowerBound="2" upperBound="4" nameDistance="0.765379113018598" boundDistance="0" nameOffset="10.875021582534908" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="d9db4347-3c3e-46ba-900f-1e15636ad740" type="REFERENCE" name="speakers" lowerBound="2" upperBound="*" nameDistance="0.742717682254763" boundDistance="0" nameOffset="2.608079449105853" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="a63c981a-c5e3-4024-99ac-aa8bfc9bec41" type="REFERENCE" name="speakers" lowerBound="2" upperBound="*" nameDistance="0.75" boundDistance="0" nameOffset="0" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="12c1e6a1-75ad-414c-8830-be79dd0d7206" type="REFERENCE" name="cupHolders" lowerBound="0" upperBound="2" nameDistance="0.6717255717255717" boundDistance="0" nameOffset="-1.1284452903835172" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="4ed6ae4e-ee75-41be-88a7-629ab7e178b0" type="REFERENCE" name="floorMats" lowerBound="0" upperBound="*" nameDistance="0.7669416082264453" boundDistance="0" nameOffset="-4.707810017876651" boundOffset="0" />
+			<Relation source="aa0821d3-8058-4363-a5c0-a81f9eee1381" destination="1539c676-403b-44df-b69a-773f796749e3" type="REFERENCE" name="floorMats" lowerBound="0" upperBound="*" nameDistance="0.8189731383883033" boundDistance="0" nameOffset="-6.017722889875138" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

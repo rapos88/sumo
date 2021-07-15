@@ -1,0 +1,104 @@
+Vehicle: {
+	name: ""
+	horsePower: 100
+	price: 1000.0
+	isUsed: false
+	owner: [
+	]
+	licensePlate: [
+		LicensePlate: { 
+		}
+	]
+	cupHolders: [
+		Cupholder: { 
+		}
+	]
+	floorMats: [
+		FloorMat: { 
+		}
+		FloorMat: { 
+		}
+	]
+	exhaustPipes: [
+		ExhaustPipe: { 
+		}
+	]
+	seatBelts: [
+		SeatBelt: { 
+		}
+		SeatBelt: { 
+		}
+		SeatBelt: { 
+		}
+	]
+	wheels: [
+		Wheel: { 
+		}
+		Wheel: { 
+		}
+		Wheel: { 
+		}
+		Wheel: { 
+		}
+	]
+	speakers: [
+		Speaker: { 
+		}
+		Speaker: { 
+		}
+	]
+	headLights: [
+		HeadLight: { 
+		}
+		HeadLight: { 
+		}
+	]
+}
+
+LicensePlate: { 
+}
+
+ExhaustPipe: { 
+}
+
+SeatBelt: { 
+}
+
+SeatBelt: { 
+}
+
+HeadLight: { 
+}
+
+HeadLight: { 
+}
+
+SeatBelt: { 
+}
+
+Wheel: { 
+}
+
+Wheel: { 
+}
+
+Wheel: { 
+}
+
+Wheel: { 
+}
+
+Speaker: { 
+}
+
+Speaker: { 
+}
+
+Cupholder: { 
+}
+
+FloorMat: { 
+}
+
+FloorMat: { 
+}

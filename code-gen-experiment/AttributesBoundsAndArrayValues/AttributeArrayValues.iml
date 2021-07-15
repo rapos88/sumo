@@ -1,0 +1,22 @@
+<iml version="0.1">
+	<StructuralModel name="AttributeArrayValues" conformsTo="AttributeArrays.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="AttributeArrays" isAbstract="FALSE" x="196" y="56" id="00dbb8a2-7571-462d-835d-b167fb2dfa53">
+				<Attribute visibility="PUBLIC" name="SingleOptional" type="INTEGER" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="MultipleOptional" type="INTEGER" value="[1,2]" lowerBound="0" upperBound="2" position="2" />
+				<Attribute visibility="PUBLIC" name="UnboundedOptional" type="INTEGER" value="[1,2,3]" lowerBound="0" upperBound="*" position="3" />
+				<Attribute visibility="PUBLIC" name="SingleRequired" type="INTEGER" value="1" lowerBound="1" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="AtLeastOneBounded" type="INTEGER" value="[1]" lowerBound="1" upperBound="2" position="5" />
+				<Attribute visibility="PUBLIC" name="AtLeastOneUnbounded" type="INTEGER" value="[1,2,3,4]" lowerBound="1" upperBound="*" position="6" />
+				<Attribute visibility="PUBLIC" name="Exactly2" type="INTEGER" value="[1,2]" lowerBound="2" upperBound="2" position="7" />
+				<Attribute visibility="PUBLIC" name="AtLeast2Bounded" type="INTEGER" value="[1,2,3]" lowerBound="2" upperBound="3" position="8" />
+				<Attribute visibility="PUBLIC" name="AtLeast2Unbounded" type="INTEGER" value="[1,2,3,4,5]" lowerBound="2" upperBound="*" position="9" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>
