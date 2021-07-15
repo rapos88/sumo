@@ -13,9 +13,9 @@ The code-gen-experiment folder follows the structure below:
 +-- clean.sh
 +-- run.sh
 +-- TestCaseName
-|   +-- src
-|	|	+-- ...
-|	+-- Expected.txt
+| +-- src
+|   |+-- ...
+| +-- Expected.txt
 |	+-- {ModelName}.iml
 +-- ...
 ```
