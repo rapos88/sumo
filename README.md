@@ -31,4 +31,3 @@ stored after running the evaluation script (until the clean script is run).
 
 ## Experiment 2: Model Transformation Evaluation
 
-TBD
