@@ -9,7 +9,7 @@ the paper. Each experiment is contained within its own folder, which are describ
 ## Experiment 1: Code Generation Evaluation
 
 The code-gen-experiment folder follows the structure below:
-.
+```
 +-- clean.sh
 +-- run.sh
 +-- TestCaseName
@@ -18,7 +18,7 @@ The code-gen-experiment folder follows the structure below:
 |	+-- Expected.txt
 |	+-- {ModelName}.iml
 +-- ...
-
+```
 The `clean.sh` script is used to clean the directory of files created in evaluation. The `run.sh` script runs
 the evaluation experiment printing results to the console, and also creating an Actual.txt result file that is stored
 in the folder for each test (see below).
