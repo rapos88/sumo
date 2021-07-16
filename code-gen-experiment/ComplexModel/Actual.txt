@@ -1,0 +1,261 @@
+Department: { 
+	fullName: "Computer Science and Software Engineering"
+	deptCode: "CSE"
+	faculty: [
+		Professor: { 
+			name: "Jim"
+			ID: "doej12"
+			department: ["CSE"]
+		}
+	]
+	courses: [
+		Course: { 
+			courseNumber: 174
+			title: "Fundamentals"
+			creditHours: 3
+			instructor: [
+				Professor: { 
+					name: "Jim"
+					ID: "doej12"
+					department: ["CSE"]
+				}
+			]
+			assistants: [
+			]
+			students: [
+				Student: { 
+					name: "James"
+					ID: "doej45"
+					major: ["CS"]
+					courseList: [
+						CourseList: { 
+							courseInfos: [
+							]
+						}
+					]
+				}
+			]
+		}
+		Course: { 
+			courseNumber: 271
+			title: "Object-Oriented"
+			creditHours: 3
+			instructor: [
+				Professor: { 
+					name: "Jim"
+					ID: "doej12"
+					department: ["CSE"]
+				}
+			]
+			assistants: [
+			]
+			students: [
+				Student: { 
+					name: "John"
+					ID: "doej23"
+					major: ["CS"]
+					courseList: [
+						CourseList: { 
+							courseInfos: [
+								CourseStudentInfo: { 
+									passed: true
+									letterGrade: "B"
+									course: [
+										Course: { 
+											courseNumber: 174
+											title: "Fundamentals"
+											creditHours: 3
+											instructor: [
+												...
+											]
+											assistants: [
+											]
+											students: [
+												...
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		Course: { 
+			courseNumber: 274
+			title: "Data Structures"
+			creditHours: 3
+			instructor: [
+				Professor: { 
+					name: "Jim"
+					ID: "doej12"
+					department: ["CSE"]
+				}
+			]
+			assistants: [
+			]
+			students: [
+				Student: { 
+					name: "Jonah"
+					ID: "doej34"
+					major: ["SE"]
+					courseList: [
+						CourseList: { 
+							courseInfos: [
+								CourseStudentInfo: { 
+									passed: true
+									letterGrade: "C"
+									course: [
+										Course: { 
+											courseNumber: 271
+											title: "Object-Oriented"
+											creditHours: 3
+											instructor: [
+												...
+											]
+											assistants: [
+											]
+											students: [
+												...
+											]
+										}
+									]
+								}
+								CourseStudentInfo: { 
+									passed: true
+									letterGrade: "B"
+									course: [
+										Course: { 
+											courseNumber: 174
+											title: "Fundamentals"
+											creditHours: 3
+											instructor: [
+												...
+											]
+											assistants: [
+											]
+											students: [
+												...
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+	majors: [
+		Degree: { 
+			name: "CS"
+			requiredCourses: [
+				Course: { 
+					courseNumber: 274
+					title: "Data Structures"
+					creditHours: 3
+					instructor: [
+						Professor: { 
+							name: "Jim"
+							ID: "doej12"
+							department: ["CSE"]
+						}
+					]
+					assistants: [
+					]
+					students: [
+						Student: { 
+							name: "Jonah"
+							ID: "doej34"
+							major: ["SE"]
+							courseList: [
+								CourseList: { 
+									courseInfos: [
+										CourseStudentInfo: { 
+											passed: true
+											letterGrade: "C"
+											course: [
+												...
+											]
+										}
+										CourseStudentInfo: { 
+											passed: true
+											letterGrade: "B"
+											course: [
+												...
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Course: { 
+					courseNumber: 271
+					title: "Object-Oriented"
+					creditHours: 3
+					instructor: [
+						Professor: { 
+							name: "Jim"
+							ID: "doej12"
+							department: ["CSE"]
+						}
+					]
+					assistants: [
+					]
+					students: [
+						Student: { 
+							name: "John"
+							ID: "doej23"
+							major: ["CS"]
+							courseList: [
+								CourseList: { 
+									courseInfos: [
+										CourseStudentInfo: { 
+											passed: true
+											letterGrade: "B"
+											course: [
+												...
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				Course: { 
+					courseNumber: 174
+					title: "Fundamentals"
+					creditHours: 3
+					instructor: [
+						Professor: { 
+							name: "Jim"
+							ID: "doej12"
+							department: ["CSE"]
+						}
+					]
+					assistants: [
+					]
+					students: [
+						Student: { 
+							name: "James"
+							ID: "doej45"
+							major: ["CS"]
+							courseList: [
+								CourseList: { 
+									courseInfos: [
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
+

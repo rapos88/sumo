@@ -1,0 +1,7 @@
+Vehicle: { 
+	name: "vehicle"
+	horsePower: 100
+	price: 1000.0
+	isUsed: true
+}
+

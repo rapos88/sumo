@@ -1,0 +1,12 @@
+AttributeArrays: { 
+	SingleOptional: 0
+	MultipleOptional: [1, 2]
+	UnboundedOptional: [1, 2, 3]
+	SingleRequired: 1
+	AtLeastOneBounded: [1]
+	AtLeastOneUnbounded: [1, 2, 3, 4]
+	Exactly2: [1, 2]
+	AtLeast2Bounded: [1, 2, 3]
+	AtLeast2Unbounded: [1, 2, 3, 4, 5]
+}
+

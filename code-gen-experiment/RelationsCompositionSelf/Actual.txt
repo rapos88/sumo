@@ -1,0 +1,84 @@
+Vehicle: { 
+	name: "car"
+	horsePower: 200
+	price: 2000.0
+	isUsed: true
+	parts: [
+		Part: { 
+			name: "engine"
+			subParts: [
+				Part: { 
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: { 
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: { 
+					name: "cylinder"
+					subParts: [
+					]
+				}
+				Part: { 
+					name: "cylinder"
+					subParts: [
+					]
+				}
+			]
+		}
+	]
+}
+
+Part: { 
+	name: "engine"
+	subParts: [
+		Part: { 
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: { 
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: { 
+			name: "cylinder"
+			subParts: [
+			]
+		}
+		Part: { 
+			name: "cylinder"
+			subParts: [
+			]
+		}
+	]
+}
+
+Part: { 
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: { 
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: { 
+	name: "cylinder"
+	subParts: [
+	]
+}
+
+Part: { 
+	name: "cylinder"
+	subParts: [
+	]
+}
+
