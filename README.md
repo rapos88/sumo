@@ -43,7 +43,7 @@ The model-transform-experiment folder follows the structure below:
 | | | +-- expected
 | | | | {ExpectedModelName}.iml 
 | | {SoureMetaModelName}.iml
-| | {TargetMetaModelName}.iml
+| | {TargetMetaModelName}.iml**
 | | {InputInstanceModelName}.iml
 | +-- ...
 +-- ...
@@ -54,9 +54,11 @@ The model-transform-experiment folder follows the structure below:
 | | +-- expected
 | | | {ExpectedModelName}.iml 
 | {SoureMetaModelName}.iml
-| {TargetMetaModelName}.iml
+| {TargetMetaModelName}.iml**
 | {InputInstanceModelName}.iml
 ```
+
+`**` In some test cases, only one meta-model is used for both the source and the target.
 
 At the top level there are directories corresponding to the test categories, each of which contain a directory for
 a single Test Case. For every test case, there are three input model files: a source meta-model, a target meta-model,
