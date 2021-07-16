@@ -1,0 +1,14 @@
+<iml version="0.1">
+	<StructuralModel name="CarAndTruck_OneCar_inst_exp" conformsTo="CarAndTruck.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Car" isAbstract="FALSE" x="279" y="153" id="a070199c-5819-428f-845c-d78a9199d635" />
+			<Class name="Vehicle" isAbstract="FALSE" x="366" y="154" id="b55ab88e-3bf1-4502-88e5-f20400789b37" />
+			<Class name="Vehicle" isAbstract="FALSE" x="479" y="154" id="001fc7ce-d4ae-46ea-98dc-6efbc267a4e0" />
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

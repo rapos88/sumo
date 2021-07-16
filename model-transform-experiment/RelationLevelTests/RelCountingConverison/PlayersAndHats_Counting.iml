@@ -1,0 +1,17 @@
+<iml version="0.1">
+	<StructuralModel name="PlayersAndHats_Counting" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Team" isAbstract="FALSE" x="287" y="113" id="cde4e24a-2692-4d64-ab40-97bc4ebd16c9" />
+			<Class name="Player" isAbstract="FALSE" x="546" y="114" id="08ef54f5-7d10-407f-9739-e4c2e6243248" />
+			<Class name="Person" isAbstract="FALSE" x="274" y="211" id="bfdc2051-099c-4800-b426-574944b0916e" />
+			<Class name="Hat" isAbstract="FALSE" x="547" y="212" id="834e0ebd-481d-448e-aec3-aab24c695b8a" />
+		</Classes>
+
+		<Relations>
+			<Relation source="cde4e24a-2692-4d64-ab40-97bc4ebd16c9" destination="08ef54f5-7d10-407f-9739-e4c2e6243248" type="COMPOSITION" name="players" lowerBound="3" upperBound="5" nameDistance="0.33" boundDistance="0.9078947368421053" nameOffset="-15" boundOffset="21" />
+			<Relation source="bfdc2051-099c-4800-b426-574944b0916e" destination="834e0ebd-481d-448e-aec3-aab24c695b8a" type="REFERENCE" name="wears" lowerBound="1" upperBound="1" nameDistance="0.33" boundDistance="0.9" nameOffset="-15" boundOffset="20" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

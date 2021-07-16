@@ -1,0 +1,17 @@
+<iml version="0.1">
+	<StructuralModel name="PlayersAndHats_inst_exp" conformsTo="PlayersAndHats.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Team" isAbstract="FALSE" x="200" y="150" id="638f706f-3327-4dd3-a026-8bcb70e5ac36" />
+			<Class name="Player" isAbstract="FALSE" x="395" y="151" id="09c89d2b-d872-4aa2-998b-8789d4217e5e" />
+			<Class name="Person" isAbstract="FALSE" x="200" y="210" id="4183874f-306a-488e-a215-83144a9e6331" />
+			<Class name="Hat" isAbstract="FALSE" x="396" y="209" id="d6e13d14-30b3-4faa-8d34-b5a0e93b2958" />
+		</Classes>
+
+		<Relations>
+			<Relation source="638f706f-3327-4dd3-a026-8bcb70e5ac36" destination="09c89d2b-d872-4aa2-998b-8789d4217e5e" type="COMPOSITION" name="players" lowerBound="1" upperBound="*" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="4183874f-306a-488e-a215-83144a9e6331" destination="d6e13d14-30b3-4faa-8d34-b5a0e93b2958" type="REFERENCE" name="wears" lowerBound="0" upperBound="1" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

@@ -1,0 +1,12 @@
+<iml version="0.1">
+	<StructuralModel name="Person_inst_t" conformsTo="Person.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="392" y="65" id="a295ae3f-7827-402d-9864-f1287e63a5b7" />
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

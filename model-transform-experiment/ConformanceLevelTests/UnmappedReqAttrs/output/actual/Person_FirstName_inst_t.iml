@@ -1,0 +1,14 @@
+<iml version="0.1">
+	<StructuralModel name="Person_FirstName_inst_t" conformsTo="Person_FirstNameRequired.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="342" y="126" id="5513818c-e46c-4753-91f1-9e143291cb62">
+				<Attribute visibility="PUBLIC" name="firstName" type="STRING" value="Enter a value" lowerBound="1" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

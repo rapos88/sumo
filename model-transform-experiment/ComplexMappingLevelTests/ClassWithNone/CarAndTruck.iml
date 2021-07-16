@@ -1,0 +1,16 @@
+<iml version="0.1">
+	<StructuralModel name="CarAndTruck" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="384" y="105" id="2f54a45e-a558-43d7-8ee9-f9165ee1c603" />
+			<Class name="Car" isAbstract="FALSE" x="338" y="232" id="94730476-cf07-4221-903d-c2c7d5b2722f" />
+			<Class name="Truck" isAbstract="FALSE" x="458" y="233" id="b86cf6e5-51eb-4d43-9fa7-13f2007cc666" />
+		</Classes>
+
+		<Relations>
+			<Relation source="94730476-cf07-4221-903d-c2c7d5b2722f" destination="2f54a45e-a558-43d7-8ee9-f9165ee1c603" type="INHERITENCE" />
+			<Relation source="b86cf6e5-51eb-4d43-9fa7-13f2007cc666" destination="2f54a45e-a558-43d7-8ee9-f9165ee1c603" type="INHERITENCE" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

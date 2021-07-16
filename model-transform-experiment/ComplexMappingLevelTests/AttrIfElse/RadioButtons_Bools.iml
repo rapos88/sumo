@@ -1,0 +1,16 @@
+<iml version="0.1">
+	<StructuralModel name="RadioButtons_Bools" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="RadioButtons" isAbstract="FALSE" x="377" y="137" id="44dbad50-5ce4-4ab4-b22c-bf5a303a49ca">
+				<Attribute visibility="PUBLIC" name="button1" type="BOOLEAN" value="FALSE" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="button2" type="BOOLEAN" value="FALSE" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="button3" type="BOOLEAN" value="FALSE" lowerBound="1" upperBound="1" position="3" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

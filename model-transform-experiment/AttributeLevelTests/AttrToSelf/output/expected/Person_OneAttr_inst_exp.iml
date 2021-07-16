@@ -1,0 +1,14 @@
+<iml version="0.1">
+	<StructuralModel name="Person_OneAttr_inst_exp" conformsTo="Person_OneAttr.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="347" y="119" id="58b661b3-c0dc-42a3-a7e5-e02c890abf1c">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="John" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

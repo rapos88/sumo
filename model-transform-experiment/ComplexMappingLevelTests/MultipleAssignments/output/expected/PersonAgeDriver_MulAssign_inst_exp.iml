@@ -1,0 +1,23 @@
+<iml version="0.1">
+	<StructuralModel name="PersonAgeDriver_MulAssign_inst_exp" conformsTo="PersonAgeDriver.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="200" y="155" id="8ee375d0-71f5-4425-8347-faed36916a61">
+				<Attribute visibility="PUBLIC" name="age" type="INTEGER" value="14" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="hasDriversLicense" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="2" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="200" y="245" id="009e882b-7503-45dd-9131-519a88aee87c">
+				<Attribute visibility="PUBLIC" name="age" type="INTEGER" value="23" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="hasDriversLicense" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="2" />
+			</Class>
+			<Class name="Person" isAbstract="FALSE" x="200" y="335" id="47a3d096-686c-42d8-b903-f8fc9297213b">
+				<Attribute visibility="PUBLIC" name="age" type="INTEGER" value="84" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="hasDriversLicense" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="2" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

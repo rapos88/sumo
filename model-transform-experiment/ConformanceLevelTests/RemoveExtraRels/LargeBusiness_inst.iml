@@ -1,0 +1,42 @@
+<iml version="0.1">
+	<StructuralModel name="LargeBusiness_inst" conformsTo="LargeBusiness.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="LargeBusiness" isAbstract="FALSE" x="495" y="333" id="7e214de5-7582-4db8-9e47-967dd2038f75" />
+			<Class name="Employee" isAbstract="FALSE" x="202" y="210" id="a0cb2da8-7ae0-4b3e-97af-b28f9610354e" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="240" id="b83cb767-601b-43f6-b0a7-9f7a53bad348" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="270" id="850032dd-8868-46e8-8b3a-94a1f1d9ae11" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="300" id="d43d5773-d7ad-4e00-ac84-4cecd20afe72" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="330" id="c749e981-c100-4185-a714-77270657a1b5" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="360" id="330c7066-eee3-4383-b5ca-7ea86b8f17b1" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="390" id="fee0c04a-265a-4766-b339-87a2eefeb58d" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="420" id="5d37c221-3594-40d4-94fd-4d0217684628" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="450" id="4e1a046c-86c6-4e43-b0fa-b6065bb82918" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="480" id="99a2b6cb-abad-415f-b15e-be5c4e8b7ff6" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="150" id="29fc3255-eff6-4304-a659-62d86e9c5740" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="180" id="7af7cf77-c999-462a-850b-089db467799f" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="510" id="4cdb1db8-0e17-41e3-b975-05d33e39f49a" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="540" id="f97e9d39-9fa4-479a-a7aa-2bb90be29b3f" />
+			<Class name="Employee" isAbstract="FALSE" x="200" y="570" id="71983e69-a655-47db-8935-763a07578efd" />
+		</Classes>
+
+		<Relations>
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="29fc3255-eff6-4304-a659-62d86e9c5740" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="7af7cf77-c999-462a-850b-089db467799f" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="a0cb2da8-7ae0-4b3e-97af-b28f9610354e" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="b83cb767-601b-43f6-b0a7-9f7a53bad348" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="850032dd-8868-46e8-8b3a-94a1f1d9ae11" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="d43d5773-d7ad-4e00-ac84-4cecd20afe72" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="c749e981-c100-4185-a714-77270657a1b5" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="330c7066-eee3-4383-b5ca-7ea86b8f17b1" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="fee0c04a-265a-4766-b339-87a2eefeb58d" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="5d37c221-3594-40d4-94fd-4d0217684628" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="4e1a046c-86c6-4e43-b0fa-b6065bb82918" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="99a2b6cb-abad-415f-b15e-be5c4e8b7ff6" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="4cdb1db8-0e17-41e3-b975-05d33e39f49a" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="f97e9d39-9fa4-479a-a7aa-2bb90be29b3f" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="7e214de5-7582-4db8-9e47-967dd2038f75" destination="71983e69-a655-47db-8935-763a07578efd" type="REFERENCE" name="employees" lowerBound="10" upperBound="99" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

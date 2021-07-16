@@ -1,0 +1,19 @@
+<iml version="0.1">
+	<StructuralModel name="PlayersAndHats_TwoPlayers_inst" conformsTo="PlayersAndHats.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Team" isAbstract="FALSE" x="304" y="118" id="ecd96fe9-c123-4423-a1fd-c909749a2662" />
+			<Class name="Person" isAbstract="FALSE" x="301" y="247" id="e3ca6b19-c2af-4b92-8deb-3342efbc0295" />
+			<Class name="Hat" isAbstract="FALSE" x="510" y="246" id="4caf3f16-5bd0-46c0-b968-5758d6fe4670" />
+			<Class name="Player" isAbstract="FALSE" x="514" y="100" id="de6fd143-a6e2-4cdb-9edf-b8f84c4ab255" />
+			<Class name="Player" isAbstract="FALSE" x="513" y="132" id="cb593887-64cd-4c01-a134-daf0c5317470" />
+		</Classes>
+
+		<Relations>
+			<Relation source="e3ca6b19-c2af-4b92-8deb-3342efbc0295" destination="4caf3f16-5bd0-46c0-b968-5758d6fe4670" type="REFERENCE" name="wears" lowerBound="0" upperBound="1" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="ecd96fe9-c123-4423-a1fd-c909749a2662" destination="de6fd143-a6e2-4cdb-9edf-b8f84c4ab255" type="COMPOSITION" name="players" lowerBound="1" upperBound="*" nameDistance="0.4786604223734205" boundDistance="0" nameOffset="-8.72333032752865" boundOffset="0" />
+			<Relation source="ecd96fe9-c123-4423-a1fd-c909749a2662" destination="cb593887-64cd-4c01-a134-daf0c5317470" type="COMPOSITION" name="players" lowerBound="1" upperBound="*" nameDistance="0.4810366624525916" boundDistance="0" nameOffset="7.649686210234004" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

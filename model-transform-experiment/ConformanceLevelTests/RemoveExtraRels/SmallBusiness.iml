@@ -1,0 +1,14 @@
+<iml version="0.1">
+	<StructuralModel name="SmallBusiness" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="SmallBusiness" isAbstract="FALSE" x="280" y="164" id="b8e565fc-3ab5-4f56-9a26-625e8b5ed7b9" />
+			<Class name="Employee" isAbstract="FALSE" x="554" y="163" id="033a7e88-7d92-4b4c-96bd-a9948673bf49" />
+		</Classes>
+
+		<Relations>
+			<Relation source="b8e565fc-3ab5-4f56-9a26-625e8b5ed7b9" destination="033a7e88-7d92-4b4c-96bd-a9948673bf49" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.40310077519379844" boundDistance="0.9457364341085271" nameOffset="-15" boundOffset="-16" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

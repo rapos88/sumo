@@ -1,0 +1,20 @@
+<iml version="0.1">
+	<StructuralModel name="SinglesAndArrays_inst_exp" conformsTo="AttributeSinglesAndArrays.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="SingleAttributes" isAbstract="FALSE" x="200" y="149" id="e17d91e5-27e2-43c9-884a-f26e70203586">
+				<Attribute visibility="PUBLIC" name="SingleOptional" type="INTEGER" value="1" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="SingleRequired" type="INTEGER" value="0" lowerBound="1" upperBound="1" position="2" />
+			</Class>
+			<Class name="ArrayAttributes" isAbstract="FALSE" x="431" y="149" id="0904dfcd-c2f7-4ed4-a4c6-55bcc0591e23">
+				<Attribute visibility="PUBLIC" name="ArrayOptional" type="INTEGER" value="[1,2,3]" lowerBound="0" upperBound="3" position="1" />
+				<Attribute visibility="PUBLIC" name="Array2To3" type="INTEGER" value="[1,2]" lowerBound="2" upperBound="3" position="2" />
+				<Attribute visibility="PUBLIC" name="Array4To5" type="INTEGER" value="[1,2,0,0]" lowerBound="4" upperBound="5" position="3" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

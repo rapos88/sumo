@@ -1,0 +1,36 @@
+<iml version="0.1">
+	<StructuralModel name="LargeBusiness_inst_t" conformsTo="SmallBusiness.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="SmallBusiness" isAbstract="FALSE" x="495" y="333" id="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="7696423a-526b-4d15-a190-012327742c6f" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="ef5b8cb9-1f1e-4e3e-844a-c44e7b30813d" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="99d58cbe-cd81-422c-8d43-914960e1302c" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="748fc17d-6066-486f-a96a-9205a44f0d3f" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="00276260-e8a4-4957-9076-080c0d53be41" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="69c20145-9c9e-42a0-ac51-634bce22c361" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="e83a33a4-1323-48d8-9a74-c006c41b2f0a" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="89993941-c6db-4145-926a-586cebb6dd6a" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="84ea83ad-131a-41e6-8d17-a03d8bca45d0" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="a4e3b55f-37fb-4c6f-aeca-60fa2069daaf" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="1f7a9f1e-87a4-42e2-8741-63837df0abc6" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="c62c2a81-8dfe-4baf-a9e5-03f81edbce9d" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="e1b2d5e8-3d35-42a6-811f-f433d3892356" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="37698d1c-9b48-4780-8269-05197000b5d8" />
+			<Class name="Employee" isAbstract="FALSE" x="100" y="100" id="01760650-361b-4f6c-b870-b4b4e24a4a69" />
+		</Classes>
+
+		<Relations>
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="e83a33a4-1323-48d8-9a74-c006c41b2f0a" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="89993941-c6db-4145-926a-586cebb6dd6a" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="84ea83ad-131a-41e6-8d17-a03d8bca45d0" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="a4e3b55f-37fb-4c6f-aeca-60fa2069daaf" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="1f7a9f1e-87a4-42e2-8741-63837df0abc6" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="c62c2a81-8dfe-4baf-a9e5-03f81edbce9d" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="e1b2d5e8-3d35-42a6-811f-f433d3892356" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="37698d1c-9b48-4780-8269-05197000b5d8" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="1458b6e8-e1c3-4fdd-a560-5babe7b8e054" destination="01760650-361b-4f6c-b870-b4b4e24a4a69" type="REFERENCE" name="employees" lowerBound="1" upperBound="9" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

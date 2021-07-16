@@ -1,0 +1,17 @@
+<iml version="0.1">
+	<StructuralModel name="BirthdayAndLetters_Rels" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="215" y="165" id="388625e2-f09e-4786-9633-3104eee2150e" />
+			<Class name="Birthday" isAbstract="FALSE" x="468" y="166" id="1e19e343-83fe-43f8-88f6-9825d1549c69" />
+			<Class name="Word" isAbstract="FALSE" x="226" y="265" id="3f29f791-264e-42ea-a992-c46289dc0a36" />
+			<Class name="Letter" isAbstract="FALSE" x="470" y="266" id="ff42db85-a5b2-486e-a020-532eac05e691" />
+		</Classes>
+
+		<Relations>
+			<Relation source="388625e2-f09e-4786-9633-3104eee2150e" destination="1e19e343-83fe-43f8-88f6-9825d1549c69" type="REFERENCE" name="birthday" lowerBound="0" upperBound="1" nameDistance="0.33" boundDistance="0.8840558412931668" nameOffset="-15" boundOffset="-18.19561032560422" />
+			<Relation source="3f29f791-264e-42ea-a992-c46289dc0a36" destination="ff42db85-a5b2-486e-a020-532eac05e691" type="COMPOSITION" name="letters" lowerBound="1" upperBound="*" nameDistance="0.33" boundDistance="0.8936170212765957" nameOffset="-15" boundOffset="23" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

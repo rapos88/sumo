@@ -12,7 +12,7 @@ The code-gen-experiment folder follows the structure below:
 ```
 +-- clean.sh
 +-- run.sh
-+-- TestCaseName
++-- {TestCaseName}
 | +-- src
 | |	+-- ...
 | +-- Expected.txt
@@ -31,3 +31,40 @@ stored after running the evaluation script (until the clean script is run).
 
 ## Experiment 2: Model Transformation Evaluation
 
+The model-transform-experiment folder follows the structure below:
+```
+Descriptions.xslx
++-- {TestCategoryName}
+| +-- {TestCaseName}
+| | +-- Output
+| | | +-- actual
+| | | | {TransformedModelName}.iml
+| | | +-- expected
+| | | | {ExpectedModelName}.iml 
+| | {SoureMetaModelName}.iml
+| | {TargetMetaModelName}.iml
+| | {InputInstanceModelName}.iml
+| +-- ...
++-- ...
++-- ComplexExample
+| +-- Output
+| | +-- actual
+| | | {TransformedModelName}.iml
+| | +-- expected
+| | | {ExpectedModelName}.iml 
+| {SoureMetaModelName}.iml
+| {TargetMetaModelName}.iml
+| {InputInstanceModelName}.iml
+```
+
+At the top level there are directories corresponding to the test categories, each of which contain a directory for
+a single Test Case. For every test case, there are three input model files: a source meta-model, a target meta-model,
+and an input instance model that conforms to the source meta-model. Finally, each test case has an output folder
+which has actual and expected output model files in named directories (actual and output). A final top level folder 
+presents a complex example, not used in the systematic evaluation, but containing several different transformations
+applied together as a demonstration of complexity.
+
+Descriptions.xslx contains the test case descriptions; for each test case, it describes the mapping rules that were
+used to create the transformations.
+
+As the comparisons between actual and expected were done manually, there are no comparison scripts.

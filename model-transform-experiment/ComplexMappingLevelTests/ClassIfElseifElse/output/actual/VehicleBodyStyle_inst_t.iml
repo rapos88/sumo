@@ -1,0 +1,14 @@
+<iml version="0.1">
+	<StructuralModel name="VehicleBodyStyle_inst_t" conformsTo="CarAndTruck.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Car" isAbstract="FALSE" x="166" y="94" id="5de09af6-6ba8-468c-8d41-11227f6de161" />
+			<Class name="Truck" isAbstract="FALSE" x="166" y="162" id="cc9be4e8-a142-4454-a538-235cecadf506" />
+			<Class name="Vehicle" isAbstract="FALSE" x="166" y="228" id="5157be58-d87d-4c00-9a52-bf0862fad21d" />
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

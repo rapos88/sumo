@@ -1,0 +1,18 @@
+<iml version="0.1">
+	<StructuralModel name="Attributes_inst_t" conformsTo="AttributeTypeConversion.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Attributes" isAbstract="FALSE" x="308" y="87" id="eba014f7-e22f-4f73-bdca-9a95be3d6c7f">
+				<Attribute visibility="PUBLIC" name="stringAttr" type="STRING" value="1.0" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="integerAttr" type="INTEGER" value="1" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="doubleAttr" type="DOUBLE" value="0.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="booleanAttrTrue" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="booleanAttrFalse" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="5" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

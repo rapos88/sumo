@@ -1,0 +1,122 @@
+<iml version="0.1">
+	<StructuralModel name="UniversityEnhanced_inst_t" conformsTo="UniversityEnhanced2.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Professor" isAbstract="FALSE" x="1404" y="227" id="5e436e93-802f-4667-b562-3fdaa8ee86f2">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Jim" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="ID" type="STRING" value="doej12" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="department" type="STRING" value="[CSE]" lowerBound="0" upperBound="*" position="3" />
+			</Class>
+			<Class name="Student" isAbstract="FALSE" x="26" y="202" id="aad55fd6-8690-4177-9d6d-2491050e4fab">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="John" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="ID" type="STRING" value="doej23" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="major" type="STRING" value="[CS]" lowerBound="1" upperBound="*" position="3" />
+			</Class>
+			<Class name="Student" isAbstract="FALSE" x="0" y="586" id="23ab7523-a2a4-443b-a0d0-4471866f976e">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Jonah" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="ID" type="STRING" value="doej34" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="major" type="STRING" value="[SE]" lowerBound="1" upperBound="*" position="3" />
+			</Class>
+			<Class name="Student" isAbstract="FALSE" x="479" y="579" id="c1ae879e-d432-4606-82ce-cad84b96cf18">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="James" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="ID" type="STRING" value="doej45" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="major" type="STRING" value="[CS]" lowerBound="1" upperBound="*" position="3" />
+			</Class>
+			<Class name="Course" isAbstract="FALSE" x="470" y="332" id="704c236a-2106-4fe9-ac75-818f6d8a3ebc">
+				<Attribute visibility="PUBLIC" name="courseNumber" type="INTEGER" value="174" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="title" type="STRING" value="Fundamentals" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="creditHours" type="INTEGER" value="3" lowerBound="1" upperBound="1" position="3" />
+			</Class>
+			<Class name="Course" isAbstract="FALSE" x="735" y="330" id="6516f2c0-3b6e-454f-b367-fe02a5cd21a9">
+				<Attribute visibility="PUBLIC" name="courseNumber" type="INTEGER" value="271" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="title" type="STRING" value="Object-Oriented" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="creditHours" type="INTEGER" value="3" lowerBound="1" upperBound="1" position="3" />
+			</Class>
+			<Class name="Course" isAbstract="FALSE" x="993" y="337" id="699d1e53-1c9f-4764-8fef-09f25c88400b">
+				<Attribute visibility="PUBLIC" name="courseNumber" type="INTEGER" value="274" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="title" type="STRING" value="Data Structures" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="creditHours" type="INTEGER" value="3" lowerBound="1" upperBound="1" position="3" />
+			</Class>
+			<Class name="Department" isAbstract="FALSE" x="709" y="139" id="b6e37957-901e-4c4c-bdbc-88ef10131c9e">
+				<Attribute visibility="PUBLIC" name="fullName" type="STRING" value="Computer Science and Software Engineering" lowerBound="1" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="deptCode" type="STRING" value="CSE" lowerBound="1" upperBound="1" position="2" />
+			</Class>
+			<Class name="Degree" isAbstract="FALSE" x="1216" y="518" id="2fa5fe57-5885-4ffa-b06d-ebd78394009f">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="CS" lowerBound="1" upperBound="1" position="1" />
+			</Class>
+			<Class name="CourseList" isAbstract="FALSE" x="56" y="96" id="817038f2-4501-44da-aaad-60dcd5caef85" />
+			<Class name="CourseList" isAbstract="FALSE" x="22" y="493" id="7f161f9f-f662-4e4f-81ec-536401dfefbb" />
+			<Class name="CourseList" isAbstract="FALSE" x="534" y="721" id="d5538913-5168-42ff-b8d8-b306c3b291f7" />
+			<Class name="CourseStudentInfo" isAbstract="FALSE" x="294" y="62" id="647bf519-c859-402d-ab6e-46c3669e9f72">
+				<Attribute visibility="PUBLIC" name="passed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="letterGrade" type="STRING" value="B" lowerBound="0" upperBound="1" position="2" />
+			</Class>
+			<Class name="CourseStudentInfo" isAbstract="FALSE" x="12" y="345" id="ac71e6bd-0009-490f-86f0-4f2e25cf1c07">
+				<Attribute visibility="PUBLIC" name="passed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="letterGrade" type="STRING" value="B" lowerBound="0" upperBound="1" position="2" />
+			</Class>
+			<Class name="CourseStudentInfo" isAbstract="FALSE" x="260" y="443" id="90f8b1bc-47d4-4219-bf0a-efb9cd227127">
+				<Attribute visibility="PUBLIC" name="passed" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="letterGrade" type="STRING" value="C" lowerBound="0" upperBound="1" position="2" />
+			</Class>
+			<Class name="CourseList" isAbstract="FALSE" x="1591" y="117" id="72983351-155b-4fbb-aa92-14b63cf47281" />
+			<Class name="University" isAbstract="FALSE" x="1294" y="23" id="a56c97f0-ba22-4510-a4cc-6e26b30cf9e3">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="Miami University" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="College" isAbstract="FALSE" x="729" y="19" id="f9121971-6ba4-4cf5-8728-80389a08f84d">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" value="College of Engineering and Computing" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+			<Relation source="b6e37957-901e-4c4c-bdbc-88ef10131c9e" destination="2fa5fe57-5885-4ffa-b06d-ebd78394009f" type="COMPOSITION" name="majors" lowerBound="1" upperBound="*" nameDistance="0.2092105889597329" boundDistance="0" nameOffset="-4.703828089605849" boundOffset="0">
+				<Point x="1290" y="341" />
+			</Relation>
+			<Relation source="b6e37957-901e-4c4c-bdbc-88ef10131c9e" destination="5e436e93-802f-4667-b562-3fdaa8ee86f2" type="REFERENCE" name="faculty" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="704c236a-2106-4fe9-ac75-818f6d8a3ebc" destination="5e436e93-802f-4667-b562-3fdaa8ee86f2" type="REFERENCE" name="instructor" lowerBound="1" upperBound="2" nameDistance="0.9286317740888337" boundDistance="0" nameOffset="1.5249251444685585" boundOffset="0">
+				<Point x="633" y="117" />
+				<Point x="1189" y="119" />
+			</Relation>
+			<Relation source="699d1e53-1c9f-4764-8fef-09f25c88400b" destination="5e436e93-802f-4667-b562-3fdaa8ee86f2" type="REFERENCE" name="instructor" lowerBound="1" upperBound="2" nameDistance="0.447946703788406" boundDistance="0" nameOffset="-0.00997162126162768" boundOffset="0" />
+			<Relation source="6516f2c0-3b6e-454f-b367-fe02a5cd21a9" destination="5e436e93-802f-4667-b562-3fdaa8ee86f2" type="REFERENCE" name="instructor" lowerBound="1" upperBound="2" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0">
+				<Point x="790" y="439" />
+				<Point x="970" y="678" />
+				<Point x="1601" y="672" />
+			</Relation>
+			<Relation source="647bf519-c859-402d-ab6e-46c3669e9f72" destination="704c236a-2106-4fe9-ac75-818f6d8a3ebc" type="REFERENCE" name="course" lowerBound="1" upperBound="1" nameDistance="0.13018867924528302" boundDistance="0" nameOffset="-1.2900197453512994" boundOffset="0" />
+			<Relation source="ac71e6bd-0009-490f-86f0-4f2e25cf1c07" destination="704c236a-2106-4fe9-ac75-818f6d8a3ebc" type="REFERENCE" name="course" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="90f8b1bc-47d4-4219-bf0a-efb9cd227127" destination="6516f2c0-3b6e-454f-b367-fe02a5cd21a9" type="REFERENCE" name="course" lowerBound="1" upperBound="1" nameDistance="0.12011581516886703" boundDistance="0" nameOffset="-0.9413777272815915" boundOffset="0">
+				<Point x="331" y="762" />
+				<Point x="800" y="765" />
+			</Relation>
+			<Relation source="704c236a-2106-4fe9-ac75-818f6d8a3ebc" destination="c1ae879e-d432-4606-82ce-cad84b96cf18" type="REFERENCE" name="students" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="6516f2c0-3b6e-454f-b367-fe02a5cd21a9" destination="aad55fd6-8690-4177-9d6d-2491050e4fab" type="REFERENCE" name="students" lowerBound="1" upperBound="*" nameDistance="0.8425426970991937" boundDistance="0" nameOffset="-1.8308043331138184" boundOffset="0">
+				<Point x="585" y="259" />
+			</Relation>
+			<Relation source="699d1e53-1c9f-4764-8fef-09f25c88400b" destination="23ab7523-a2a4-443b-a0d0-4471866f976e" type="REFERENCE" name="students" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0">
+				<Point x="873" y="824" />
+				<Point x="190" y="838" />
+			</Relation>
+			<Relation source="b6e37957-901e-4c4c-bdbc-88ef10131c9e" destination="704c236a-2106-4fe9-ac75-818f6d8a3ebc" type="COMPOSITION" name="courses" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="b6e37957-901e-4c4c-bdbc-88ef10131c9e" destination="6516f2c0-3b6e-454f-b367-fe02a5cd21a9" type="COMPOSITION" name="courses" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="b6e37957-901e-4c4c-bdbc-88ef10131c9e" destination="699d1e53-1c9f-4764-8fef-09f25c88400b" type="COMPOSITION" name="courses" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="c1ae879e-d432-4606-82ce-cad84b96cf18" destination="d5538913-5168-42ff-b8d8-b306c3b291f7" type="COMPOSITION" name="courseList" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="23ab7523-a2a4-443b-a0d0-4471866f976e" destination="7f161f9f-f662-4e4f-81ec-536401dfefbb" type="COMPOSITION" name="courseList" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="aad55fd6-8690-4177-9d6d-2491050e4fab" destination="817038f2-4501-44da-aaad-60dcd5caef85" type="COMPOSITION" name="courseList" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="2fa5fe57-5885-4ffa-b06d-ebd78394009f" destination="699d1e53-1c9f-4764-8fef-09f25c88400b" type="REFERENCE" name="requiredCourses" lowerBound="3" upperBound="43" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="2fa5fe57-5885-4ffa-b06d-ebd78394009f" destination="6516f2c0-3b6e-454f-b367-fe02a5cd21a9" type="REFERENCE" name="requiredCourses" lowerBound="3" upperBound="43" nameDistance="0.25919438691532415" boundDistance="0" nameOffset="3.6107245327950186" boundOffset="0">
+				<Point x="885" y="495" />
+			</Relation>
+			<Relation source="2fa5fe57-5885-4ffa-b06d-ebd78394009f" destination="704c236a-2106-4fe9-ac75-818f6d8a3ebc" type="REFERENCE" name="requiredCourses" lowerBound="3" upperBound="43" nameDistance="0.14099732792887854" boundDistance="0" nameOffset="-6.204058993658806" boundOffset="0">
+				<Point x="738" y="561" />
+			</Relation>
+			<Relation source="7f161f9f-f662-4e4f-81ec-536401dfefbb" destination="90f8b1bc-47d4-4219-bf0a-efb9cd227127" type="COMPOSITION" name="courseInfos" lowerBound="0" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="817038f2-4501-44da-aaad-60dcd5caef85" destination="647bf519-c859-402d-ab6e-46c3669e9f72" type="COMPOSITION" name="courseInfos" lowerBound="0" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="7f161f9f-f662-4e4f-81ec-536401dfefbb" destination="ac71e6bd-0009-490f-86f0-4f2e25cf1c07" type="COMPOSITION" name="courseInfos" lowerBound="0" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="5e436e93-802f-4667-b562-3fdaa8ee86f2" destination="72983351-155b-4fbb-aa92-14b63cf47281" type="COMPOSITION" name="courseList" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="a56c97f0-ba22-4510-a4cc-6e26b30cf9e3" destination="f9121971-6ba4-4cf5-8728-80389a08f84d" type="COMPOSITION" name="colleges" lowerBound="1" upperBound="*" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="f9121971-6ba4-4cf5-8728-80389a08f84d" destination="b6e37957-901e-4c4c-bdbc-88ef10131c9e" type="COMPOSITION" name="departments" lowerBound="0" upperBound="*" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

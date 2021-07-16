@@ -1,0 +1,18 @@
+<iml version="0.1">
+	<StructuralModel name="Attributes_inst_shift2_exp" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Attributes" isAbstract="FALSE" x="322" y="109" id="a009589a-25f0-4c51-9cd4-12a365cc9c4f">
+				<Attribute visibility="PUBLIC" name="stringAttr" type="STRING" value="TRUE" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="integerAttr" type="INTEGER" value="0" lowerBound="0" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="doubleAttr" type="DOUBLE" value="10.0" lowerBound="0" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="booleanAttrTrue" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="4" />
+				<Attribute visibility="PUBLIC" name="booleanAttrFalse" type="BOOLEAN" value="TRUE" lowerBound="0" upperBound="1" position="5" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

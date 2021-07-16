@@ -1,0 +1,19 @@
+<iml version="0.1">
+	<StructuralModel name="BirthdayAndLetters_Rels_inst" conformsTo="BirthdayAndLetters_Rels.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="201" y="169" id="8f0308dd-def5-4ce3-8e98-4c795e7469c9" />
+			<Class name="Birthday" isAbstract="FALSE" x="413" y="168" id="4ce9d32b-f89a-4a5d-92d3-33e852598e32" />
+			<Class name="Word" isAbstract="FALSE" x="205" y="297" id="39b6af7b-59f5-4730-8c7e-70c181f10eee" />
+			<Class name="Letter" isAbstract="FALSE" x="415" y="276" id="560e8bc7-7bb0-479f-83af-6c4b2293f2e9" />
+			<Class name="Letter" isAbstract="FALSE" x="415" y="312" id="8cbe3a58-9db7-4733-9ab4-afc409bccb03" />
+		</Classes>
+
+		<Relations>
+			<Relation source="8f0308dd-def5-4ce3-8e98-4c795e7469c9" destination="4ce9d32b-f89a-4a5d-92d3-33e852598e32" type="REFERENCE" name="birthday" lowerBound="0" upperBound="1" nameDistance="0.33" boundDistance="0" nameOffset="-15" boundOffset="0" />
+			<Relation source="39b6af7b-59f5-4730-8c7e-70c181f10eee" destination="560e8bc7-7bb0-479f-83af-6c4b2293f2e9" type="COMPOSITION" name="letters" lowerBound="1" upperBound="*" nameDistance="0.5171996542783059" boundDistance="0" nameOffset="-3.328253115166711" boundOffset="0" />
+			<Relation source="39b6af7b-59f5-4730-8c7e-70c181f10eee" destination="8cbe3a58-9db7-4733-9ab4-afc409bccb03" type="COMPOSITION" name="letters" lowerBound="1" upperBound="*" nameDistance="0.5153304959610875" boundDistance="0" nameOffset="1.8825959372282361" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

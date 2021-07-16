@@ -1,0 +1,17 @@
+<iml version="0.1">
+	<StructuralModel name="BirthdayAndLetters_Attrs" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="425" y="113" id="9dc2896d-8f05-4a94-9632-74c29edccf4b">
+				<Attribute visibility="PUBLIC" name="birthday" type="STRING" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Word" isAbstract="FALSE" x="428" y="239" id="ab94992e-2d88-4246-9fb4-57caaac15d1a">
+				<Attribute visibility="PUBLIC" name="letters" type="STRING" lowerBound="1" upperBound="*" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

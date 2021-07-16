@@ -1,0 +1,18 @@
+<iml version="0.1">
+	<StructuralModel name="PlayersAndHats_TwoPlayers_inst_t" conformsTo="PlayersAndHats.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Team" isAbstract="FALSE" x="304" y="118" id="6f86aad9-cc9e-49a6-a038-e2919b83301d" />
+			<Class name="Player" isAbstract="FALSE" x="514" y="100" id="2276046a-f681-492a-950e-36488dfc64f0" />
+			<Class name="Player" isAbstract="FALSE" x="513" y="132" id="1fd773e7-9b9a-4dbf-8c6c-b635ffe1116b" />
+			<Class name="Person" isAbstract="FALSE" x="301" y="247" id="e1595667-8c9a-40ff-97fc-01a67b885aa4" />
+			<Class name="Hat" isAbstract="FALSE" x="510" y="246" id="093f5060-6cf5-41ea-a1e0-3d5734ac396b" />
+			<Class name="Player" isAbstract="FALSE" x="100" y="100" id="2f979175-442c-498e-9041-3bb386ebc3c3" />
+		</Classes>
+
+		<Relations>
+			<Relation source="6f86aad9-cc9e-49a6-a038-e2919b83301d" destination="2f979175-442c-498e-9041-3bb386ebc3c3" type="COMPOSITION" name="players" lowerBound="1" upperBound="*" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

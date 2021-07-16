@@ -1,0 +1,17 @@
+<iml version="0.1">
+	<StructuralModel name="PlayersAndHats_inst_t" conformsTo="BaseballAndItems.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Team" isAbstract="FALSE" x="304" y="118" id="72d89769-0524-4b92-8433-54d1737f0047" />
+			<Class name="BaseballPlayer" isAbstract="FALSE" x="517" y="119" id="056f6f3f-a6c0-4083-a37b-a103017da282" />
+			<Class name="Person" isAbstract="FALSE" x="301" y="247" id="db22fd3a-eb34-4fef-a59e-a399e53e0184" />
+			<Class name="Item" isAbstract="FALSE" x="510" y="246" id="a324a4ea-6500-4e1f-b536-850f792729a9" />
+		</Classes>
+
+		<Relations>
+			<Relation source="72d89769-0524-4b92-8433-54d1737f0047" destination="056f6f3f-a6c0-4083-a37b-a103017da282" type="COMPOSITION" name="baseballPlayers" lowerBound="1" upperBound="25" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="db22fd3a-eb34-4fef-a59e-a399e53e0184" destination="a324a4ea-6500-4e1f-b536-850f792729a9" type="REFERENCE" name="holds" lowerBound="0" upperBound="2" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

@@ -1,0 +1,14 @@
+<iml version="0.1">
+	<StructuralModel name="RadioButtons_Int" conformsTo="IML Definition" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="RadioButtons" isAbstract="FALSE" x="368" y="137" id="30a0ead2-3551-49ac-9886-6957579dafbb">
+				<Attribute visibility="PUBLIC" name="selectedButton" type="INTEGER" lowerBound="1" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

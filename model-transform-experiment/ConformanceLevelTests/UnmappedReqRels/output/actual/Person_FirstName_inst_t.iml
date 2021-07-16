@@ -1,0 +1,21 @@
+<iml version="0.1">
+	<StructuralModel name="Person_FirstName_inst_t" conformsTo="Person_WithCar.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Person" isAbstract="FALSE" x="342" y="126" id="9b7f4143-a124-4812-b3bf-740dd0c4960a">
+				<Attribute visibility="PUBLIC" name="firstName" type="STRING" value="John" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Vehicle" isAbstract="FALSE" x="100" y="100" id="bd5103b1-9283-4e58-a69a-0d6b8d20bc43">
+				<Attribute visibility="PUBLIC" name="name" type="STRING" lowerBound="0" upperBound="1" position="1" />
+				<Attribute visibility="PUBLIC" name="horsepower" type="INTEGER" value="100" lowerBound="1" upperBound="1" position="2" />
+				<Attribute visibility="PUBLIC" name="price" type="DOUBLE" value="1000.0" lowerBound="1" upperBound="1" position="3" />
+				<Attribute visibility="PUBLIC" name="isUsed" type="BOOLEAN" value="FALSE" lowerBound="0" upperBound="1" position="4" />
+			</Class>
+		</Classes>
+
+		<Relations>
+			<Relation source="9b7f4143-a124-4812-b3bf-740dd0c4960a" destination="bd5103b1-9283-4e58-a69a-0d6b8d20bc43" type="REFERENCE" name="transportation" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>

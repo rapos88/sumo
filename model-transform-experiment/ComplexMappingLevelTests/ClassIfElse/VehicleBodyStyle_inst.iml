@@ -1,0 +1,20 @@
+<iml version="0.1">
+	<StructuralModel name="VehicleBodyStyle_inst" conformsTo="VehicleBodyStyle.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Vehicle" isAbstract="FALSE" x="166" y="94" id="ab986f26-18f2-495f-b286-be3183e70617">
+				<Attribute visibility="PUBLIC" name="bodyStyle" type="STRING" value="Car" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Vehicle" isAbstract="FALSE" x="166" y="162" id="c96a0462-9f10-43d2-8d57-5e0be2514c1f">
+				<Attribute visibility="PUBLIC" name="bodyStyle" type="STRING" value="Truck" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+			<Class name="Vehicle" isAbstract="FALSE" x="166" y="228" id="92d8dd04-c538-42ee-810c-3f8e9c2d5802">
+				<Attribute visibility="PUBLIC" name="bodyStyle" type="STRING" lowerBound="0" upperBound="1" position="1" />
+			</Class>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

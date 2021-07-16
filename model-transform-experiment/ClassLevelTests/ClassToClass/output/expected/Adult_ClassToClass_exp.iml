@@ -1,0 +1,12 @@
+<iml version="0.1">
+	<StructuralModel name="Adult_ClassToClass_exp" conformsTo="Adult.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Adult" isAbstract="FALSE" x="414" y="81" id="7e4932aa-8e70-402f-89f2-c71789a39d05" />
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

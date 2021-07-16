@@ -1,0 +1,26 @@
+<iml version="0.1">
+	<StructuralModel name="PlayersAndHats_6PlayersNoHat_inst_t" conformsTo="PlayersAndHats_Counting.iml" routingMode="simpleRoute">
+
+		<Classes>
+			<Class name="Team" isAbstract="FALSE" x="200" y="150" id="51ffee5f-fd27-4d84-96e9-73b318228744" />
+			<Class name="Player" isAbstract="FALSE" x="341" y="56" id="56852924-7c82-4320-98b2-1b43676328d7" />
+			<Class name="Player" isAbstract="FALSE" x="369" y="95" id="3cfb482c-273b-44f0-8630-b6ac2ba31919" />
+			<Class name="Player" isAbstract="FALSE" x="386" y="132" id="97b324d4-a5ed-4cd0-bbb7-63b6dfb3c457" />
+			<Class name="Player" isAbstract="FALSE" x="388" y="166" id="c8221de1-86c6-488d-8704-4ac1e1b54171" />
+			<Class name="Player" isAbstract="FALSE" x="369" y="204" id="522cde39-05b9-4cc9-816c-d36b108b9f97" />
+			<Class name="Player" isAbstract="FALSE" x="342" y="242" id="6fe25b13-f866-44d7-a1b0-de90079f69be" />
+			<Class name="Person" isAbstract="FALSE" x="199" y="347" id="2909fd87-4096-4cc7-91ae-29f1764821cd" />
+			<Class name="Hat" isAbstract="FALSE" x="100" y="100" id="67e3921e-e109-4137-aa6f-725c705f3783" />
+		</Classes>
+
+		<Relations>
+			<Relation source="51ffee5f-fd27-4d84-96e9-73b318228744" destination="3cfb482c-273b-44f0-8630-b6ac2ba31919" type="COMPOSITION" name="players" lowerBound="3" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="51ffee5f-fd27-4d84-96e9-73b318228744" destination="97b324d4-a5ed-4cd0-bbb7-63b6dfb3c457" type="COMPOSITION" name="players" lowerBound="3" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="51ffee5f-fd27-4d84-96e9-73b318228744" destination="c8221de1-86c6-488d-8704-4ac1e1b54171" type="COMPOSITION" name="players" lowerBound="3" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="51ffee5f-fd27-4d84-96e9-73b318228744" destination="522cde39-05b9-4cc9-816c-d36b108b9f97" type="COMPOSITION" name="players" lowerBound="3" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="51ffee5f-fd27-4d84-96e9-73b318228744" destination="6fe25b13-f866-44d7-a1b0-de90079f69be" type="COMPOSITION" name="players" lowerBound="3" upperBound="5" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+			<Relation source="2909fd87-4096-4cc7-91ae-29f1764821cd" destination="67e3921e-e109-4137-aa6f-725c705f3783" type="REFERENCE" name="wears" lowerBound="1" upperBound="1" nameDistance="0.5" boundDistance="0" nameOffset="0.5" boundOffset="0" />
+		</Relations>
+
+	</StructuralModel>
+</iml>
