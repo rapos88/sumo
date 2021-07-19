@@ -1,0 +1,11 @@
+<iml version="0.1">
+	<StructuralModel name="Vehicle_Abstract_inst" conformsTo="Vehicle_Abstract.iml" routingMode="simpleRoute">
+
+		<Classes>
+		</Classes>
+
+		<Relations>
+		</Relations>
+
+	</StructuralModel>
+</iml>

@@ -23,8 +23,10 @@ for d in */; do
 	java $RUN > ../Actual.txt
 	cd ..
 	cp Expected.txt TempExpected.txt
-	echo "" >> TempExpected.txt
-	echo "" >> TempExpected.txt
+	if [ $PACKAGE != "Vehicle_Abstract_inst" ]; then
+		echo "" >> TempExpected.txt
+		echo "" >> TempExpected.txt
+	fi
 	dos2unix TempExpected.txt > /dev/null 2>&1
 	if ! diff -b TempExpected.txt Actual.txt &>/dev/null; then
 		echo "Test $RUN Failed"
