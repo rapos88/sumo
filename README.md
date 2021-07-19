@@ -42,7 +42,7 @@ The model-transform-experiment folder follows the structure below:
 | | | | {TransformedModelName}.iml
 | | | +-- expected
 | | | | {ExpectedModelName}.iml 
-| | {SoureMetaModelName}.iml
+| | {SourceMetaModelName}.iml
 | | {TargetMetaModelName}.iml**
 | | {InputInstanceModelName}.iml
 | +-- ...
@@ -53,7 +53,7 @@ The model-transform-experiment folder follows the structure below:
 | | | {TransformedModelName}.iml
 | | +-- expected
 | | | {ExpectedModelName}.iml 
-| {SoureMetaModelName}.iml
+| {SourceMetaModelName}.iml
 | {TargetMetaModelName}.iml**
 | {InputInstanceModelName}.iml
 ```
